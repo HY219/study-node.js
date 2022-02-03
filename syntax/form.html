@@ -1,0 +1,17 @@
+<!-- 전송하고자하는 데이터들을 갖고 있는 폼들을 감싸줌 -->
+<form action="http://localhost:4000/process_create" method="post"> <!--전송할 서버 주소-->
+
+    <p>
+        <input type = "text" name="title">   <!--한 줄 입력-->
+    </p>
+
+    <p>
+        <textarea name="description">a</textarea>  <!--여러 줄 입력-->
+    </p>
+
+    <p>
+        <input type="submit">   <!--전송 버튼 (입력한 정보를 서버로 전송)-->
+    </p>
+
+</form>
+<!-- 폼들은 이름(name)이 있어야, 서버 쪽에서 받았을 때 의미가 있다. -->
