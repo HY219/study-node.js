@@ -34,6 +34,7 @@ setTimeout(()=>{
 
 //logger.js 모듈을 불러온다.
 // require('./logger.js')
+// require('./logger') //js파일이 모듀 모듈이기 때문에 js를 붙이지 않아도 됨.
 const logger = require('./logger.js') //불러오기 위해 변수 사용
 
 logger.showLogMessage('첫번째 로그메시지') //모듈의 함수 사용
