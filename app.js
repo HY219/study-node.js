@@ -36,4 +36,7 @@ setTimeout(()=>{
 // require('./logger.js')
 const logger = require('./logger.js') //불러오기 위해 변수 사용
 
-logger.showLogMessage('모듈에 대한 테스트 중입니다.') //모듈의 함수 사용
+logger.showLogMessage('첫번째 로그메시지') //모듈의 함수 사용
+
+logger.showLogMessage2('두번째 로그메시지')
+console.log('Logger 모듈에 들어있는 소중한 값은: '+logger.pvalue)
