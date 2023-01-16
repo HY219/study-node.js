@@ -30,3 +30,10 @@ setTimeout(()=>{
 
 //Module
 //함수, 라이브러리
+//logger.js --> showLogMessage
+
+//logger.js 모듈을 불러온다.
+// require('./logger.js')
+const logger = require('./logger.js') //불러오기 위해 변수 사용
+
+logger.showLogMessage('모듈에 대한 테스트 중입니다.') //모듈의 함수 사용
